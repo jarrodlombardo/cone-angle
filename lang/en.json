@@ -1,0 +1,6 @@
+{
+    "cone-angle": {
+        "coneAngleLabel": "Cone angle (degrees)",
+        "coneAngleLabelHint": "Cone templates will use this angle instead of the Foundry default of 60 degrees.\nD&D 5e RAW is roughly 53.3 degrees.\n'Grid Diagonals: Alternating 1/2/1' is roughly 90 degrees."
+    }
+}

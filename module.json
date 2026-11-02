@@ -1,0 +1,36 @@
+{
+  "id": "cone-angle",
+  "title": "Cone Angle",
+  "version": "AUTOMATIC",
+  "description": "<p>Minimum module to set the angle of cone templates.</p>",
+  "url": "https://github.com/jarrodlombardo/cone-angle",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14.368"
+  },
+  "authors": [
+    {
+      "name": "Jarrod Lombardo",
+      "discord": "jaberwocky_",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "scripts/cone-angle.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "flags": {
+    "hotReload": {
+      "extensions": ["json"],
+      "paths": ["lang/en.json"]
+    }
+  },
+  "manifest": "https://github.com/jarrodlombardo/cone-angle/releases/latest/download/module.json",
+  "download": "AUTOMATIC"
+}

@@ -10,10 +10,8 @@ Hooks.on('init', () => {
     }
     game.settings.register('cone-angle', 'coneAngle', settingDef);
 
-    if (game.version < 14) {
-        let angle = game.settings.get("cone-angle", 'coneAngle');
-        CONFIG.MeasuredTemplate.defaults.angle = angle;
-    }
+    let angle = game.settings.get("cone-angle", 'coneAngle');
+    CONFIG.MeasuredTemplate.defaults.angle = angle;
 })
 
 Hooks.on("getSceneControlButtons", controls => {

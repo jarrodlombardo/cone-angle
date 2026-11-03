@@ -15,7 +15,7 @@ Hooks.on('init', () => {
 })
 
 Hooks.on("getSceneControlButtons", controls => {
-    if (game.version >= 14) {
+    if (game.release.generation >= 14) {
         let angle = game.settings.get("cone-angle", 'coneAngle');
         controls.regions.tools.cone.shapeData = {
             type: "cone",
